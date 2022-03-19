@@ -14,7 +14,7 @@ body{
 
 .navbar{
   background-color: transparent;  
-  color: white;
+  /* color: white; */
   text-align: center;
   justify-content: space-between;
   font-size: xx-large;
@@ -27,4 +27,20 @@ color: wheat;
     color: wheat;
     text-decoration-style: wavy;
     padding-left: 7%;
+}
+.ourpizza img{
+    width: 50%;
+    height: 700px;
+    padding-top: 5rem;
+    float: left;
+}
+.ourpizza{
+    display: flex;
+}
+.menu{
+    color: wheat;
+    font-size: large;
+    margin-left: 7%;
+    padding-top: 5rem;
+    float: right;
 }
