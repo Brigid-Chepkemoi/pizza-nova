@@ -1,10 +1,11 @@
 body{
-    background-image: url(images/pizza\ nova\ backgrnd.jpg);
+    /* background-image: url(images/pizza\ nova\ backgrnd.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: white;
 }
 .logo{
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 7%;
     font-size: xxx-large;
@@ -20,11 +21,11 @@ body{
   font-size: xx-large;
 }
 .navbar a.active{
-color: wheat;
+color: black;
 
 }
 .navbar a{
-    color: wheat;
+    color: black;
     text-decoration-style: wavy;
     padding-left: 7%;
 }
@@ -38,9 +39,27 @@ color: wheat;
     display: flex;
 }
 .menu{
-    color: wheat;
+    color: black;
     font-size: large;
     margin-left: 7%;
     padding-top: 5rem;
     float: right;
+}
+.orderonline{
+    display: flex;
+    padding: top 10%; ;
+    margin-left: 25%;
+    /* padding-right: 5%; */
+   
+}
+.row{
+   display: flex;
+}
+.orderonline #img1,#img2,#img3{
+    width: 200px;
+    height: 200px;
+    /* padding-left: 3rem; */
+    border-radius: 80%;
+  /* margin-left: 10%; */
+
 }
