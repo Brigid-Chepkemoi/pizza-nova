@@ -11,11 +11,20 @@ body{
     font-style: italic;
     /* font-family: fantasy; */
 }
+
 .navbar{
   background-color: transparent;  
   color: white;
   text-align: center;
   justify-content: space-between;
   font-size: xx-large;
+}
+.navbar a.active{
+color: wheat;
 
+}
+.navbar a{
+    color: wheat;
+    text-decoration-style: wavy;
+    padding-left: 7%;
 }
