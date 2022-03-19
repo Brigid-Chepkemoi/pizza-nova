@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA NOVA</title>
     <link rel="stylesheet" href="index.css">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -66,8 +66,9 @@
 
 <div class="orderonline" id="orderonline">
     <h2 id="ordertitle">Order Online</h2>
-    <form>
+    <form id="order">
 <input id=name type="text" placeholder="Name"><br><br>
+<input id="numorder" type="number" placeholder="No. of Pizzas"><br><br>
 <strong>Pizza</strong>
 <select name="Pizza" id="pizza">
     <option value="Pepperoni">Pepperoni</option>
@@ -81,10 +82,10 @@
     <option >Crispy</option>
     <option >Gluten-free</option>
 </select><br><br>
-<input id="numorder" type="number" placeholder="No. of Pizzas">
+
 </select><br><br>
-<button type="submit" class="btn btn-warning">Order</button>
-<button type="submit" class="btn btn-warning">Delivery</button>
+<button type="submit" id="order" >Order</button>
+<button type="submit" id="delivery"  >Delivery</button>
     </form>
 </div>
 <div class="contactus">
@@ -98,24 +99,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- MDB -->
-<!-- <script
-type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
-></script> -->
-<script src="scrit.js"></script>
+    
+<script src="script.js"></script>
 </body>
 </html>

@@ -81,9 +81,12 @@ form{
     width:30%;
     height: 300px;
     text-align: center;
-    margin-left: 33%;
+    margin-left: 35%;
+    background-color: rgba(199, 100, 7, 0.829);
+    opacity: 0.9;
     
 }
+
 #name{
     margin-top: 3rem;
 }
