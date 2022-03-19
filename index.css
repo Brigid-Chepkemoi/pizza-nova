@@ -63,8 +63,9 @@ color: black;
   /* margin-left: 10%; */
 
 }
-h2
-
+#ordertitle{
+    text-align: center;
+}
 form{
     border: 1px solid black;
     width:30%;
@@ -74,5 +75,5 @@ form{
     
 }
 #name{
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
