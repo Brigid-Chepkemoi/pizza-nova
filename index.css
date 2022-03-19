@@ -63,3 +63,16 @@ color: black;
   /* margin-left: 10%; */
 
 }
+h2
+
+form{
+    border: 1px solid black;
+    width:30%;
+    height: 300px;
+    text-align: center;
+    margin-left: 33%;
+    
+}
+#name{
+    margin-top: 5rem;
+}
