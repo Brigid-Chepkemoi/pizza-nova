@@ -6,11 +6,15 @@ $(document).ready(function(){
         var MyPizza=$("#pizza").find(":selected").text()
         var MyTopping=$("#crust").find(":selected").text()
         var PizzaSize=$("#pizzasize").find(":selected").text()
+        var location=$("input#location").val()
+    
         console.log(MyName)
         console.log(PizzaNumber)
         console.log(MyPizza)
         console.log(MyTopping)
         console.log(PizzaSize)
+        console.log(location) 
+        
         const order1 = new MyFunction (MyName,PizzaNumber,MyPizza,MyTopping)
         console.log(order1)
     })
@@ -27,6 +31,7 @@ this.PizzaSize=PizzaSize
 }
 MyFunction.prototype.TotalPrice = function(){
 var SizePrice;
+var OrdersNumber;
 if(this.PizzaSize === "Small"){
 SizePrice=500
 }
@@ -36,13 +41,20 @@ else if(this.PizzaSize === "Medium"){
 else{
     SizePrice=1000
 }
+$("form#").submit(function(){
+var OrderDelivery;
 
+});
+// if(this.OrderDelivery)
 
-console.log("Total Price")
+// console.log("Total Price")
+// }
+
+// Pick up notes
+// left at where to declare the delivery parameters 
+// how to calculate with the number of order chosen
+// how to write a function for the delivery submit button
+
 }
-
-
-
-
 
 });
