@@ -27,7 +27,6 @@ color: wheat;
 }
 .navbar a{
     color: wheat;
-    text-decoration-style: wavy;
     padding-left: 7%;
 }
 .ourpizza img{
@@ -89,7 +88,9 @@ form{
 #orderonlinetext{
     font-size:xx-large ;
 }
-
+.message h3{
+    color: wheat;
+}
 .contactus{
     text-align: center;
     margin-top: 5%;
