@@ -30,41 +30,28 @@ color: wheat;
     padding-left: 7%;
 }
 .ourpizza img{
-    width: 50%;
-    height: 700px;
-    padding-top: 2rem;
-    float: left;
+     width: 200px; 
+    height: 200px;
+    padding-top: 5rem;
 }
 .ourpizza{
-    display: flex;
+    color: wheat;
+
 }
-.ourpizzadetails h1{
+.ourpizza h1{
     text-align: center;
 }
-.menu{
-    color: wheat;
-    font-size: large;
-    margin-left: 7%;
-    padding-top: 5rem;
-    float: right;
-}
-.pizzas{
-    display: flex;
-    padding: top 10%; ;
-    margin-left: 25%;
-    /* padding-right: 5%; */
-   
-}
 .row{
-   display: flex;
+    display: flex;
 }
-.pizzas #img1,#img2,#img3{
-    width: 200px;
-    height: 200px;
-    /* padding-left: 3rem; */
-    border-radius: 80%;
-  /* margin-left: 10%; */
 
+#ourpizzadesc{
+    font-size: x-large;
+    text-align: center;
+}
+.container-fluid{
+    display: contents;
+    justify-content: center;
 }
 #ordertitle{
     text-align: center;
@@ -76,13 +63,14 @@ color: wheat;
     background-position: center;
 }
 form{
-    border: 1px solid wheat;
+    border: 1px solid black;
     width:30%;
     height: 300px;
     text-align: center;
     margin-left: 35%;
     background-color: rgba(199, 100, 7, 0.829);
     opacity: 0.9;
+    color: black;
     
 }
 #orderonlinetext{
