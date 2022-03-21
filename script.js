@@ -9,13 +9,7 @@ $(document).ready(function(){
         var MyTopping=$("#crust").find(":selected").text()
         var PizzaSize=$("#pizzasize").find(":selected").text()
         OrderLocation=$("input#location").val()
-        // console.log(MyName)
-        // console.log(PizzaNumber)
-        // console.log(MyPizza)
-        // console.log(MyTopping)
-        // console.log(PizzaSize)
-        // console.log(location) 
-        
+      
         const order1 = new MyFunction (MyName,PizzaNumber,MyPizza,MyTopping,PizzaSize,OrderLocation)
         console.log(order1)
   order1.TotalPrice()
@@ -31,7 +25,7 @@ this.OrderLocation=OrderLocation
 
 }
 MyFunction.prototype.TotalPrice = function(){
-    // console.log(this.MyName)
+  
 
 var SizePrice;
 var OrdersNumber=this.PizzaNumber;
@@ -48,7 +42,7 @@ if(this.PizzaSize === "Small"){
             }
             console.log(SizePrice)
             total=SizePrice * OrdersNumber
-            // console.log(total)
+            
             
         $("#delivery").click(function(event){
             event.preventDefault()
@@ -57,22 +51,11 @@ if(this.PizzaSize === "Small"){
             var deliveryFee=200;
             var grandTotal;
             grandTotal=total+ deliveryFee;
-    //    return grandtotal;
+    
        console.log(grandTotal);
        $(".message").append('<h3>' +" "+ " You have ordered pizza, for " + total+ " We have recieved your order and it will be delivered to you at "+OrderLocation+ ". Prepare sh. "+grandTotal +'<h3>');
 
     }); 
     }; 
 });   
-// console.log(SizePrice)
 
-// console.log(SizePrice)
-// var OrdersNumber= $("input#numorder").val();
-// console.log(OrdersNumber)
-//
-//
-//
-// let
-
-// }
-// });
