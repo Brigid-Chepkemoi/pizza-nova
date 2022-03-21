@@ -43,8 +43,12 @@ color: wheat;
 }
 .row{
     display: flex;
+    padding-left:0rem;
+    margin-left: 8%;
 }
-
+#periperi{
+    padding-left: 3rem;
+}
 #ourpizzadesc{
     font-size: x-large;
     text-align: center;
